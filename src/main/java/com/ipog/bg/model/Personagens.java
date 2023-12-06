@@ -19,6 +19,9 @@ public class Personagens {
 	@Column(name="nome")
 	private String nome;
 	
+	@Column(name="ativo")
+	private Boolean ativo;
+	
 	// Construtor padrão, sem atributos
 	public Personagens() {
 		super();
@@ -50,4 +53,16 @@ public class Personagens {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
+
+
+	public Boolean getAtivo() {
+		return ativo;
+	}
+
+
+	public void setAtivo(Boolean ativo) {
+		this.ativo = ativo;
+	}
+	
+	
 }
