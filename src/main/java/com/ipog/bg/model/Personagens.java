@@ -30,7 +30,7 @@ public class Personagens {
 
 
 	// Construtor com todos os campos
-	public Personagens(Long iD, String nome) {
+	public Personagens(Long iD, String nome, Boolean ativo) {
 		super();
 		ID = iD;
 		this.nome = nome;
