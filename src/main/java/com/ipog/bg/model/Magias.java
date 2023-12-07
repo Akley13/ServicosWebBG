@@ -38,7 +38,6 @@ public class Magias {
 	@ManyToOne(optional = false, fetch = FetchType.EAGER)
 	private Personagens personagem;
 	
-	
 	// Construtor sem atributos para a superclasse
 	public Magias() {
 		super();
@@ -128,9 +127,5 @@ public class Magias {
 	public void setPersonagem(Personagens personagem) {
 		this.personagem = personagem;
 	}
-	
-	
-	
-	
 	
 }
